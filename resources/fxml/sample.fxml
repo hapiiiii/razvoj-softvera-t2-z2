@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.t2.z2.Controller">
+
+    <stylesheets>
+        <URL value="@/css/stile.css" />
+    </stylesheets>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <TextField fx:id="informacija" prefHeight="25.0" prefWidth="59.0" GridPane.columnIndex="2" />
+        <Label text="Unesi Broj" />
+        <Button mnemonicParsing="false" onAction="#oke" text="ok" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label text="rezultat je:" GridPane.rowIndex="3" />
+        <Label fx:id="rezultat" text="" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    </children>
+</GridPane>
